@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Clicker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- код -->
+<body>
+    <!-- хэдер -->
+    <header>
+        <div class="alert">
+        <h3>LAST UPDATE: 05.03.2024</h3>
+    </div>
+        <h1>ЧЕ ЗА БРЕД КЛИКЕР</h1>
+        <h2>Почему бы и нет?</h2>
+    </header>
+    <!-- баланс -->
+    <div class="balance">
+        <!-- коины -->
+        <nav><h2 id="coins">0</h2>
+        <img src="imgs /Coins.png"></img></nav>
+        <!-- клики -->
+        <nav><h2 id="clicks">0</h2>
+        <img src="imgs /Clicks.png"></img></nav>
+    </div>
+    <!-- Магазин -->
+    <div class="shop" id="box">
+        <h2>Вы можете приобрести:</h2>
+        <button id="buyminecraft">
+            <nav>
+                <h2>Майнкрафт</h2>
+                <img src="imgs /Minecraft.png"></img>
+            <h2>-1000</h2>
+            <img src="imgs /Coins.png"></img>
+            </nav>
+        </button>
+        <button id="buyday">
+            <nav>
+                <h2>1д без</h2>
+                <img src="imgs /joker.png"></img>
+            <h2>-10000</h2>
+            <img src="imgs /Coins.png"></img>
+            </nav>
+        </button>
+    </div>
+    <!-- Улучшения -->
+        <div class="upgrade" id="box">
+            <h2>Улучшения:</h2>
+            <button id="doblclick">
+                <nav>
+                    <h2 id="dcdisplay">Двойной клик - 1000</h2>
+                    <img src="imgs /Coins.png"></img>
+                </nav>
+            </button>
+            <button id="clickspeed">
+                <nav>
+                    <h2 id="csdisplay">Скорость - 25</h2>
+                    <img src="imgs /Coins.png"></img>
+                </nav>
+            </button>
+        </div>
+        <!-- Обменник -->
+        <div class="trader" id="box">
+            <h2>Обменник:</h2>
+            <nav>
+                <h2>Курс:</h2>
+                <h2 id="clickcurse">1</h2>
+                <img src="imgs /Clicks.png"></img>
+                <h2>/</h2>
+                <h2 id="coincurse">1</h2>
+                <img src="imgs /Coins.png"></img>
+            </nav>
+            <button id="tradebutton">
+                <h2>Обменять</h2>
+            </button>
+        </div>
+        <!-- Основной блок -->
+        <div class="clicker" id="box">
+            <h2>Зона кликов:</h2>
+            <button id="clickarea">
+                <h2>Кликать тут!</h2>
+            </button>
+        </div>
+    <script src="gamecode.js"></script>
+</body>
+</html>
